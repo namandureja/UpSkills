@@ -60,8 +60,8 @@ const connectToWallet = async () => {
     await wallet.requestSignIn(
       "ndureja2.testnet", // contract requesting access
       "UpSkills", // optional
-      "http://localhost:3000/admin/donate", // optional
-      "http://localhost:3000/admin/donate" // optional
+      "https://up-skills.herokuapp.com/admin/donate", // optional
+      "https://up-skills.herokuapp.com/admin/donate" // optional
     );
   }
 }
