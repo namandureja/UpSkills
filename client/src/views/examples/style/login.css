@@ -1,0 +1,124 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+.login-img {
+  width: 520px;
+  float: right;
+}
+
+.box-login {
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.head-text {
+  font-size: 1.2rem;
+}
+
+.our-table td {
+  white-space: nowrap;
+  overflow: auto;
+  max-width: 160px;
+}
+.box-wrap {
+  margin-top: -190px;
+}
+
+.profile-img{
+  transition: opacity 10s;
+  opacity: 1;
+}
+.profile-img.hide {
+  opacity: 0;
+  pointer-events:none;
+}
+.error-msg {
+  color: rgb(196, 36, 36);
+  font-size: 0.9rem;
+}
+
+.skill-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+  padding-bottom: 0;
+}
+
+.form-group{
+  margin-bottom: 17px;
+}
+
+.skill-box{
+  background-color: #fff;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgb(50 50 93 / 15%), 0 1px 0 rgb(0 0 0 / 2%);
+  border-radius: 7px;
+}
+
+.fa-times{
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.empty-table {
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-wrap {
+  border-color: #115fef;
+  border-style: solid;
+  padding: 5px 10px;
+  padding-left: 13px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.search-wrap input {
+  border: none;
+  width: 90%;
+  padding: 0 8px;
+}
+
+@media (max-width: 1200px) {
+  .login-img {
+    width: 480px;
+  }
+}
+
+@media (max-width: 991px) {
+  .login-img {
+    width: 340px;
+    margin-top: 20px;
+    float: none;
+  }
+  .img-wrap {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .box-wrap {
+    margin-top: -150px;
+  }
+}
